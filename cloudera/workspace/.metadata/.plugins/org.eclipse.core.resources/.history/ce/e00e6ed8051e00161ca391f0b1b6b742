@@ -1,0 +1,11 @@
+package avro;
+
+public class makeAvroFile {
+
+	public static void main(String[] args) 
+	{
+
+
+	}
+
+}

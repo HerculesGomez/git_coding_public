@@ -1,0 +1,13 @@
+package writeReadStream;
+
+public class writeReadStream {
+
+	public void writeToStream{
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
