@@ -153,65 +153,6 @@ public class TruckEventsProducer {
         	}
         }
         
-//        for (int i = 0; i < arrayroute17.length; i++) 
-//        {
-//        	finalEvent = new Timestamp(new Date().getTime()) + "|"
-//                    + truckIds[0] + "|" + driverIds[0] + "|" + events[random.nextInt(evtCnt)] 
-//                    + "|" + getLatLong(arrayroute17[i]);
-//        	try {
-//                KeyedMessage<String, String> data = new KeyedMessage<String, String>(TOPIC, finalEvent);
-//                LOG.info("Sending Messge #: " + routeName[0] + ": " + i +", msg:" + finalEvent);
-//                producer.send(data);
-//                Thread.sleep(3000);
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        for (int j = 0; j < arrayroute17k.length; j++) 
-//        {
-//        	finalEvent = new Timestamp(new Date().getTime()) + "|"
-//        			+ truckIds[1] + "|" + driverIds[1] + "|" + events[random.nextInt(evtCnt)] 
-//                    + "|" + getLatLong(arrayroute17k[j]);
-//        	try {
-//                KeyedMessage<String, String> data = new KeyedMessage<String, String>(TOPIC, finalEvent);
-//                LOG.info("Sending Messge #: " + routeName[1] + ": " + j +", msg:" + finalEvent);
-//                producer.send(data);
-//                Thread.sleep(3000);
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-//
-//        for (int k = 0; k < arrayroute208.length; k++) 
-//        {
-//        	finalEvent = new Timestamp(new Date().getTime()) + "|" 
-//                    + truckIds[2] + "|" + driverIds[2] + "|" + events[random.nextInt(evtCnt)] 
-//                    + "|" + getLatLong(arrayroute208[k]);
-//        	try {
-//                KeyedMessage<String, String> data = new KeyedMessage<String, String>(TOPIC, finalEvent);
-//                LOG.info("Sending Messge #: " + routeName[2] + ": " + k +", msg:" + finalEvent);
-//                producer.send(data);
-//                Thread.sleep(3000);
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-//        
-//        for (int l = 0; l < arrayroute27.length; l++) 
-//        {
-//        	finalEvent = new Timestamp(new Date().getTime()) + "|" 
-//                    + truckIds[3] + "|" + driverIds[3] + "|" + events[random.nextInt(evtCnt)] 
-//                    + "|" + getLatLong(arrayroute27[l]);
-//        	try {
-//                KeyedMessage<String, String> data = new KeyedMessage<String, String>(TOPIC, finalEvent);
-//                LOG.info("Sending Messge #: " + routeName[3] + ": " + l +", msg:" + finalEvent);
-//                producer.send(data);
-//                Thread.sleep(3000);
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-        
         producer.close();
     }
 

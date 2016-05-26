@@ -35,11 +35,6 @@ private static final String OUTPUT_FILE = "/home/cloudera/workspace/writeReadStr
 	            e.printStackTrace();
 	        }
 	}
-	 
-	public static void WriteAvro()
-	{
-		
-	}
 	    
 	public static void main(String[] args) 
 	{
